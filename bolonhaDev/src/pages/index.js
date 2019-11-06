@@ -2,13 +2,12 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+// import Breadcrumb from "../components/Breadcrumb"
 
 const IndexPage = () => (
-  <Layout>
+  <Layout crumbLabel="master">
     <SEO title="Home" />
-    <h1>@BolonhaDev</h1>
-    <p>in site</p>
-    <p>on master <span>[+]</span></p>
+    {/* <Breadcrumb /> */}
   </Layout>
 )
 

@@ -1,11 +1,22 @@
 import React from "react"
 import PropTypes from "prop-types"
 
+import Breadcrumb from "./Breadcrumb"
+import Commands from "./Commands"
 
-const Layout = ({ children }) => {
+
+const Layout = ({ children, crumbLabel }) => {
 
   return (   
-        <main>{children}</main>
+    <>
+      <main>
+        <Breadcrumb actualSite={crumbLabel} />
+        {children}
+      </main>
+      <aside>
+        <Commands/>
+      </aside>
+    </>
   )
 }
 
