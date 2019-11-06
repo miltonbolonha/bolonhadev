@@ -4,7 +4,8 @@ module.exports = {
     description: `Oi, sou o Bolonha Dev. 
                   Desenvolvedor web e de apps mobile. 
                   Aqui vou falar um pouco dos meus projetos e desafios.`,
-    author: `@bolonhaDev`,
+    author: `@BolonhaDev`,
+    email: `fala@bolonha.dev`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
