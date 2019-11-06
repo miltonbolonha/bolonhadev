@@ -25,13 +25,13 @@ const Commands = () => (
       <Link to="/blog" activeClassName="active">blog</Link>
     </li>
     <li className="item">
-      <Link to="/latest" activeClassName="active">latest</Link>
+      <Link to="/last-post" activeClassName="active">last</Link>
     </li>
     <li className="item">
       <Link to="/best" activeClassName="active">best</Link>
     </li>
     <li className="item">
-      <Link to="/social" activeClassName="active">social</Link>
+      <Link to="/twitter" activeClassName="active">twitter</Link>
     </li>
   </ul>
 )
