@@ -33,6 +33,7 @@ const SettingStyles = createGlobalStyle`
   body {
     line-height: 1.5;
     font-size: 100%;
+    background-color: #040508;
   }
   ol, ul {
     list-style: none;
