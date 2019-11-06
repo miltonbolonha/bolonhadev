@@ -7,6 +7,10 @@ import SEO from "../components/seo"
 const LastPage = () => (
   <Layout crumbLabel="last-post">
     <SEO title="Last Post" />
+    <p>Copo furadis é disculpa de 
+      bebadis, arcu quam euismod magna. A ordem dos tratores não altera o 
+      pão duris. Quem num gosta di mé, boa gentis num é.
+    </p>
   </Layout>
 )
 
