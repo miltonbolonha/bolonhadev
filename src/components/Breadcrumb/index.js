@@ -20,7 +20,7 @@ return (
     <p>{email}</p>
     <h2>{author}</h2>
     <p>in site</p>
-    <p>on <h1>{ actualSite }</h1> <span>[+]</span></p>
+    <p>on</p> <h1>{ actualSite }</h1> <span>[+]</span>
   </>
 )
 }

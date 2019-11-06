@@ -1,13 +1,13 @@
-import React from "react"
+import React from 'react'
 
 import Layout from "../components/Layout"
 import SEO from "../components/seo"
 // import Breadcrumb from "../components/Breadcrumb"
 
-const IndexPage = () => (
-  <Layout crumbLabel="master">
-    <SEO title="Home" />
+const LastPage = () => (
+  <Layout crumbLabel="last-post">
+    <SEO title="Last Post" />
   </Layout>
 )
 
-export default IndexPage
+export default LastPage

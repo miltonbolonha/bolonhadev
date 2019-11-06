@@ -1,13 +1,13 @@
-import React from "react"
+import React from 'react'
 
 import Layout from "../components/Layout"
 import SEO from "../components/seo"
 // import Breadcrumb from "../components/Breadcrumb"
 
-const IndexPage = () => (
-  <Layout crumbLabel="master">
-    <SEO title="Home" />
+const TwitterPage = () => (
+  <Layout crumbLabel="twitter">
+    <SEO title="Twitter" />
   </Layout>
 )
 
-export default IndexPage
+export default TwitterPage
