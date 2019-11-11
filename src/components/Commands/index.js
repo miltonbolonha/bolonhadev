@@ -1,39 +1,42 @@
 import React from 'react'
-import { Link } from "gatsby"
+import * as S from "./styled"
 
 const Commands = () => (
-  <ul className="commands-wrapper">
-    <li className="item">
-      <Link to="/" activeClassName="active">master</Link>
-    </li>
-    <li className="item">
-      <Link to="/info" activeClassName="active">info</Link>
-    </li>
-    <li className="item">
-      <Link to="/contact" activeClassName="active">contact</Link>
-    </li>
-    <li className="item">
-      <Link to="/portfolio" activeClassName="active">portfolio</Link>
-    </li>
-    <li className="item">
-      <Link to="/clean" activeClassName="active">clean</Link>
-    </li>
-    <li className="item">
-      <Link to="/list" activeClassName="active">list</Link>
-    </li>
-    <li className="item">
-      <Link to="/blog" activeClassName="active">blog</Link>
-    </li>
-    <li className="item">
-      <Link to="/last-post" activeClassName="active">last</Link>
-    </li>
-    <li className="item">
-      <Link to="/best" activeClassName="active">best</Link>
-    </li>
-    <li className="item">
-      <Link to="/twitter" activeClassName="active">twitter</Link>
-    </li>
-  </ul>
+  <S.Aside>
+    <S.CommandsWrapper>
+      <S.CommandsTitle>Commands</S.CommandsTitle>
+      <S.CommandsItem>
+        <S.CommandLink to="/" activeClassName="active">master</S.CommandLink>
+      </S.CommandsItem>
+      <S.CommandsItem>
+        <S.CommandLink to="/info" activeClassName="active">info</S.CommandLink>
+      </S.CommandsItem>
+      <S.CommandsItem>
+        <S.CommandLink to="/contact" activeClassName="active">contact</S.CommandLink>
+      </S.CommandsItem>
+      <S.CommandsItem>
+        <S.CommandLink to="/portfolio" activeClassName="active">portfolio</S.CommandLink>
+      </S.CommandsItem>
+      <S.CommandsItem>
+        <S.CommandLink to="/clean" activeClassName="active">clean</S.CommandLink>
+      </S.CommandsItem>
+      <S.CommandsItem>
+        <S.CommandLink to="/list" activeClassName="active">list</S.CommandLink>
+      </S.CommandsItem>
+      <S.CommandsItem>
+        <S.CommandLink to="/blog" activeClassName="active">blog</S.CommandLink>
+      </S.CommandsItem>
+      <S.CommandsItem>
+        <S.CommandLink to="/last-post" activeClassName="active">last</S.CommandLink>
+      </S.CommandsItem>
+      <S.CommandsItem>
+        <S.CommandLink to="/best" activeClassName="active">best</S.CommandLink>
+      </S.CommandsItem>
+      <S.CommandsItem>
+        <S.CommandLink to="/twitter" activeClassName="active">twitter</S.CommandLink>
+      </S.CommandsItem>
+    </S.CommandsWrapper>
+  </S.Aside>
 )
 
 export default Commands

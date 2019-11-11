@@ -6,8 +6,8 @@ export const LayoutWrapper = styled.section`
   align-content: center;
   background-color: #040508;
   height: 100vh;
-  /* padding: 20rem; */
   width: 100%;
+  overflow: hidden;
 `
 
 export const LayoutMain = styled.div`
@@ -19,6 +19,26 @@ export const LayoutMain = styled.div`
   height: 100%;
   width: 100%;
   margin: auto;
+  overflow-y: auto;
+
+  &::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  /* Track */
+  &::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+  
+  /* Handle */
+  &::-webkit-scrollbar-thumb {
+    background: #e679fc; 
+  }
+
+  /* Handle on hover */
+  &::-webkit-scrollbar-thumb:hover {
+    background: #90fafd; 
+  }
 `
 
 export const MainContainer  = styled.main`
