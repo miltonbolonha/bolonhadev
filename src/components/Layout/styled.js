@@ -13,13 +13,20 @@ export const LayoutWrapper = styled.section`
 export const LayoutMain = styled.div`
   background-color: #282a36;
   border: 1px solid #434759;
-  padding: 5px;
   max-height: 600px;
   max-width: 800px;
   height: 100%;
   width: 100%;
   margin: auto;
   overflow-y: auto;
+  border-radius: 3px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: column;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: stretch;
 
   &::-webkit-scrollbar {
     width: 5px;
@@ -43,4 +50,7 @@ export const LayoutMain = styled.div`
 
 export const MainContainer  = styled.main`
   margin: 50px;
+  flex: 1 1 auto;
+  align-self: stretch;
+  flex-grow: 1;
 `

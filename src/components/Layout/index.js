@@ -10,6 +10,8 @@ import TopEmail from "../TopEmail"
 import Breadcrumb from "../Breadcrumb"
 import TerminalInput from "../TerminalInput"
 import Commands from "../Commands"
+import BottomCopy from "../BottomCopy"
+
 
 const Layout = ({ children, crumbLabel }) => {
 
@@ -25,6 +27,7 @@ const Layout = ({ children, crumbLabel }) => {
           <TerminalInput />
           {children}
         </S.MainContainer>
+        <BottomCopy />
       </S.LayoutMain>
       <Commands/>
     </S.LayoutWrapper>
