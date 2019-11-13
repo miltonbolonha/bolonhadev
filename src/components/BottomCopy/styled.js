@@ -14,4 +14,5 @@ export const BottomCopyWrapper  = styled.p`
   flex-grow: 0;
   padding-top: 5px;
   padding-bottom: 5px;
+  margin: 0;
 `

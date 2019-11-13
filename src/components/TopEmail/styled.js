@@ -13,4 +13,5 @@ export const TopEmailWrapper  = styled.p`
   justify-content: center;
   padding-top: 5px;
   padding-bottom: 5px;
+  margin: 0;
 `
