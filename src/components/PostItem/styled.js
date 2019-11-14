@@ -4,7 +4,7 @@ import { Link } from 'gatsby'
 export const PostItemLink = styled(Link)`
   border: 2px dashed white;
   padding: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   display: flex;
 `
 export const PostItemWrapper = styled.section`
@@ -35,5 +35,5 @@ export const PostItemTitle = styled.h1`
 `
 
 export const PostItemDescription = styled.p`
-  
+  margin-bottom: 0;
 `

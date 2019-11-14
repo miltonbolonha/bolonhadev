@@ -19,8 +19,7 @@ const Breadcrumb = ({ actualSite }) => {
 return (
   <S.BreadcrumbWrapper>
     <S.BreadcrumbAuthor>{author}</S.BreadcrumbAuthor>
-    <S.BreadcrumbPlace>in site</S.BreadcrumbPlace>
-    <p>on</p> 
+    <S.BreadcrumbPlace>in site on</S.BreadcrumbPlace>
     <S.BreadcrumbPage>{ actualSite }</S.BreadcrumbPage> 
     <S.BreadcrumbIcon>[+]</S.BreadcrumbIcon>
   </S.BreadcrumbWrapper>

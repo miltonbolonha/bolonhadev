@@ -16,3 +16,7 @@ export const BottomCopyWrapper  = styled.p`
   padding-bottom: 5px;
   margin: 0;
 `
+
+export const separator  = styled.span`
+  margin: 0 5px;
+`

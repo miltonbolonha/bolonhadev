@@ -13,10 +13,10 @@ export const BreadcrumbAuthor = styled.h2`
 
 export const BreadcrumbPlace = styled.p`
   margin-right: 15px;
+  margin-bottom: 0;
 `
 
 export const BreadcrumbPage = styled.h1`
-  margin-left: 15px;
   margin-right: 15px;
 `
 
