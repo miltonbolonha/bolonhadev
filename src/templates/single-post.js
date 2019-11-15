@@ -4,7 +4,7 @@ import { graphql } from "gatsby"
 import Layout from "../components/Layout"
 import SEO from "../components/seo"
 
-import * as S from "../components/SinglePost/styled"
+import * as S from "../styles/components/singlepost"
 
 const SinglePost = ({ data }) => {
   const post = data.markdownRemark

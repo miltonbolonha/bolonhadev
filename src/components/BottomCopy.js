@@ -1,11 +1,11 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 
-import * as S from "./styled"
+import * as S from "../styles/components/bottomcopy"
 
-import GatsbyIcon from "../../images/gatsby-icon.png"
-import ReactIcon from "../../images/react-icon.png"
-import NetlifyIcon from "../../images/netlify.png"
+import GatsbyIcon from "../images/gatsby-icon.png"
+import ReactIcon from "../images/react-icon.png"
+import NetlifyIcon from "../images/netlify.png"
 
 const BottomCopy = () => {
   const { site: { siteMetadata: { author } }} = useStaticQuery(graphql`

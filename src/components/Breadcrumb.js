@@ -1,7 +1,7 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 
-import * as S from "./styled"
+import * as S from "../styles/components/breadcrumb"
 
 const Breadcrumb = ({ actualSite }) => {
   const { site: { siteMetadata: { author } }} = useStaticQuery(graphql`

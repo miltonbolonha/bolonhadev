@@ -1,7 +1,7 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 
-import * as S from "./styled"
+import * as S from "../styles/components/topemail"
 
 const TopEmail = () => {
   const { site: { siteMetadata: { email } }} = useStaticQuery(graphql`
