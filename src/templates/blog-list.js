@@ -68,7 +68,6 @@ query BlogList($skip: Int!, $limit: Int!) {
     }
   }
 }
-
 `
 
 export default BlogList
