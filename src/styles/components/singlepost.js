@@ -2,8 +2,11 @@ import styled from "styled-components"
 
 export const PostHeader = styled.header`
   display: flex;
-  flex-direction: row;
-  margin-bottom: 15px;
+  flex-direction: column;
+  margin-bottom: 35px;
+  border: 2px dashed #eaf4f4;
+  padding: 20px;
+  align-items: center;
 `
 
 export const PostTitle = styled.h1`
@@ -33,8 +36,3 @@ export const MainContent = styled.section`
     text-shadow: 1px 1px 0px #040508;
   }
 `
-
-export const Separator = styled.p`
-  margin: 0 10px;
-`
-

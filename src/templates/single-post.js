@@ -14,7 +14,6 @@ const SinglePost = ({ data }) => {
       <SEO title={post.frontmatter.title} />
       <S.PostHeader>
         <S.PostTitle>{post.frontmatter.title}</S.PostTitle>
-        <S.Separator>•</S.Separator>
         <S.PostDate>{post.frontmatter.date}</S.PostDate>
       </S.PostHeader>
       <S.MainContent>

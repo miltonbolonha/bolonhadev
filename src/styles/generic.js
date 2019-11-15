@@ -53,6 +53,9 @@ const GenericStyles = createGlobalStyle`
   a{
     text-decoration: none;
   }
+  pre{
+    margin-bottom: 15px;
+  }
 `
 
 export default GenericStyles

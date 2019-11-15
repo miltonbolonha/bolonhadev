@@ -31,6 +31,7 @@ module.exports = {
       },
     },
     `gatsby-transformer-sharp`,
+    `gatsby-remark-prismjs`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
