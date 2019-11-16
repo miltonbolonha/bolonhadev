@@ -4,7 +4,7 @@ import Layout from "../components/Layout"
 import SEO from "../components/seo"
 
 const NotFoundPage = () => (
-  <Layout crumbLabel="not-found">
+  <Layout crumbLabel="404-not-found">
     <SEO title="404: Not found" />
     <p>Quatro zero quatrizim num vedis nadis aquiuis. 
       Manduma pindureta quium dia nois paga. Copo furadis é disculpa de 

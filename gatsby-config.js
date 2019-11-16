@@ -1,3 +1,7 @@
+require ("dotenv").config()
+
+const queries = require("./src/utils/algolia_queries")
+
 module.exports = {
   siteMetadata: {
     title: `BolonhaDev - Codando desde 1998`,
@@ -17,7 +21,32 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    {
+      resolve: `gatsby-plugin-algolia-search`,
+      options: {
+        appId: process.env.GATSBY_ALGOLIA_APP_ID,
+        apiKey: process.env.ALGOLIA_ADMIN_KEY,
+        indexName: process.env.ALGOLIA_INDEX_NAME,
+        queries,
+        enablePartialUpdates: true,
+        chunkSize: 10000,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `posts`,
+        path: `${__dirname}/posts`,
+      },
+    },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [],
+      },
+    },
     `gatsby-transformer-sharp`,
+    `gatsby-remark-prismjs`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
