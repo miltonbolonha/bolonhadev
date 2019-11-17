@@ -1,4 +1,4 @@
-import React from "react"
+import React  from "react"
 import PropTypes from "prop-types"
 
 import SettingStyles from "../styles/settings"
@@ -14,14 +14,14 @@ import BottomCopy from "./BottomCopy"
 
 
 const Layout = ({ children, crumbLabel }) => {
-
+  
   return (   
     <S.LayoutWrapper>
       <SettingStyles />
       <GenericStyles />
       <BaseStyles />
       <S.LayoutMain>
-        <TopEmail />
+      <TopEmail />
         <S.MainContainer>
           <Breadcrumb actualSite={crumbLabel} />
           <TerminalInput />

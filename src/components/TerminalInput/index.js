@@ -1,8 +1,8 @@
-import React, { Component } from "react"
+import React, { useState } from "react"
 import algoliasearch from 'algoliasearch/lite';
 import { InstantSearch, SearchBox, Hits, Stats } from "react-instantsearch-dom"
 
-import Hit from "./Hit"
+import PostLoop from "./PostLoop"
 
 import * as S from "../../styles/components/terminalinput"
 
@@ -12,77 +12,68 @@ const algolia = {
   indexName: process.env.GATSBY_ALGOLIA_INDEX_NAME
 }
 
-class TerminalInput extends Component{
-  constructor(props) {
-    super(props)
-    this.onSearchStateChange = this.onSearchStateChange.bind(this)
-    this.state = {goSearch: false, searchState: {}}
-  }
-    
-  onSearchStateChange = searchState => {
-    if(searchState.query.length>1){
-      this.setState({
-        goSearch: true
-      })
-    }else{
-      this.setState({
-        goSearch: false
-      })
-    }
-    this.setState({
-      searchState: searchState
-    })
+const TerminalInput = () => {
+
+  const algoliaClient = algoliasearch(algolia.appId, algolia.searchOnlyApiKey)
+
+  const [searching,setSearching] = useState(false)
+  const [searchState, setSearchState] = useState()
+
+  function handleSearchState(){
+    setSearchState(searchState)
   }
 
-  render(){
-    const goSearch = this.state.goSearch;
-    const algoliaClient = algoliasearch(algolia.appId, algolia.searchOnlyApiKey)
-    if (goSearch) {
-      const searchClient = {
-        search(requests) {        
-          return algoliaClient.search(requests);
-        }
-      }
-      return(
-        <S.TerminalInputWrapper>
-          <InstantSearch 
-            searchClient={searchClient} 
-            indexName={algolia.indexName}
-            searchState={this.state.searchState}
-            onSearchStateChange={this.onSearchStateChange}
-          >
-            <SearchBox autoFocus translations={{ placeholder: "Pesquisar..." }} />
-            <Hits hitComponent={Hit} />
-            <Stats
-              translations={{
-                stats(nbHits, timeSpentMs) {
-                  return `${nbHits} resultados encontrados em ${timeSpentMs}ms`
-                },
-              }}
-            />
-          </InstantSearch>
-        </S.TerminalInputWrapper>
-      )
-    }else{
-      const searchClient = {
-        search(requests) {        
-          return algoliaClient.search(requests);
-        }
-      }
-      return(
-        <S.TerminalInputWrapper>
-          <InstantSearch 
-            searchClient={searchClient} 
-            indexName={algolia.indexName}
-            searchState={this.state.searchState}
-            onSearchStateChange={this.onSearchStateChange}
-          >
-            <SearchBox autoFocus translations={{ placeholder: "Pesquisar..." }} />
-          </InstantSearch>
-        </S.TerminalInputWrapper>
-      )
+  const searchClient = {
+    search(requests) {        
+      return algoliaClient.search(requests);
     }
   }
+
+  function onSearchStateChange(searchState) {
+    // && searchState.query.charAt(0)!=='/'
+    if(searchState.query.length>1){
+      setSearching(true)
+      handleSearchState()
+    }else{
+      setSearching(false)
+    } 
+  }
+  if(searching){
+    return(
+      <S.TerminalInputWrapper>
+        <InstantSearch 
+          searchClient={searchClient} 
+          indexName={algolia.indexName}
+          searchState={searchState}
+          onSearchStateChange={onSearchStateChange}
+        >
+          <SearchBox autoFocus translations={{ placeholder: "Pesquisar..." }} />
+          <Hits hitComponent={PostLoop} />
+          <Stats
+            translations={{
+              stats(nbHits, timeSpentMs) {
+                return `${nbHits} resultados encontrados em ${timeSpentMs}ms`
+              },
+            }}
+          />
+        </InstantSearch>
+      </S.TerminalInputWrapper>
+    )
+  }else{
+    return(
+      <S.TerminalInputWrapper>
+        <InstantSearch 
+          searchClient={searchClient} 
+          indexName={algolia.indexName}
+          searchState={searchState}
+          onSearchStateChange={onSearchStateChange}
+        >
+          <SearchBox autoFocus translations={{ placeholder: "Pesquisar..." }} />
+        </InstantSearch>
+      </S.TerminalInputWrapper>
+    )
+  }
+
 }
 
 export default TerminalInput
