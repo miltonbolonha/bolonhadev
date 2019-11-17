@@ -1,7 +1,7 @@
 import React from "react"
 import PostItem from "../PostItem"
 
-const Hit = ({ hit }) => (
+const PostLoop = ({ hit }) => (
   <PostItem
     slug={hit.fields.slug}
     title={hit.title}
@@ -11,4 +11,4 @@ const Hit = ({ hit }) => (
   />
 )
 
-export default Hit
+export default PostLoop
