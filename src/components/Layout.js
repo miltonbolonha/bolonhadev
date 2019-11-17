@@ -1,4 +1,4 @@
-import React  from "react"
+import React, { useState }  from "react"
 import PropTypes from "prop-types"
 
 import SettingStyles from "../styles/settings"
@@ -14,6 +14,18 @@ import BottomCopy from "./BottomCopy"
 
 
 const Layout = ({ children, crumbLabel }) => {
+
+  let [hideChildren,sethideChildren] = useState(false)
+  
+  const handleIsSearching = e => {
+    if(e.target.value.length>1){
+      sethideChildren(true)
+      console.log({hideChildren})
+    }else{
+      sethideChildren(false)
+      console.log({hideChildren})
+    }
+  }
   
   return (   
     <S.LayoutWrapper>
@@ -24,8 +36,8 @@ const Layout = ({ children, crumbLabel }) => {
       <TopEmail />
         <S.MainContainer>
           <Breadcrumb actualSite={crumbLabel} />
-          <TerminalInput />
-          {children}
+          <TerminalInput setIsSearching={e => handleIsSearching(e)} />
+          {hideChildren ? null : children}
         </S.MainContainer>
         <BottomCopy />
       </S.LayoutMain>

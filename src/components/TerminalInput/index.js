@@ -12,33 +12,42 @@ const algolia = {
   indexName: process.env.GATSBY_ALGOLIA_INDEX_NAME
 }
 
-const TerminalInput = () => {
+const TerminalInput = (props) => {
 
   const algoliaClient = algoliasearch(algolia.appId, algolia.searchOnlyApiKey)
 
-  const [searching,setSearching] = useState(false)
   const [searchState, setSearchState] = useState()
-
+  
+  let [isSearching,setIsSearching] = useState(false)
+  
   function handleSearchState(){
     setSearchState(searchState)
   }
 
   const searchClient = {
     search(requests) {        
-      return algoliaClient.search(requests);
+      return algoliaClient.search(requests)
     }
   }
 
   function onSearchStateChange(searchState) {
-    // && searchState.query.charAt(0)!=='/'
     if(searchState.query.length>1){
-      setSearching(true)
       handleSearchState()
-    }else{
-      setSearching(false)
-    } 
+    }    
   }
-  if(searching){
+  
+  const handleInputChange = (e) =>{
+    // && e.target.value.charAt(0)!=='/'
+    if(e.target.value.length>1){
+      setIsSearching(true)
+    }else{
+      setIsSearching(false)
+    } 
+    props.setIsSearching(e)
+    console.log(isSearching)
+  }
+
+  if(isSearching){
     return(
       <S.TerminalInputWrapper>
         <InstantSearch 
@@ -47,7 +56,12 @@ const TerminalInput = () => {
           searchState={searchState}
           onSearchStateChange={onSearchStateChange}
         >
-          <SearchBox autoFocus translations={{ placeholder: "Pesquisar..." }} />
+          <SearchBox 
+            autoFocus 
+            focusShortcuts={['/']}
+            translations={{ placeholder: "Pesquisar..." }} 
+            onChange={e => handleInputChange(e)}
+          />
           <Hits hitComponent={PostLoop} />
           <Stats
             translations={{
@@ -68,12 +82,16 @@ const TerminalInput = () => {
           searchState={searchState}
           onSearchStateChange={onSearchStateChange}
         >
-          <SearchBox autoFocus translations={{ placeholder: "Pesquisar..." }} />
+          <SearchBox 
+            autoFocus 
+            focusShortcuts={['/']}
+            translations={{ placeholder: "Pesquisar..." }} 
+            onChange={e => handleInputChange(e)}
+          />
         </InstantSearch>
       </S.TerminalInputWrapper>
     )
   }
-
 }
 
 export default TerminalInput
