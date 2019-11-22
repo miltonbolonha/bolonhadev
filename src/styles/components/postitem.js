@@ -2,10 +2,16 @@ import styled from "styled-components"
 import { Link } from 'gatsby'
 
 export const PostItemLink = styled(Link)`
-  border: 2px dashed white;
+  border: 2px dashed #eaf4f4;
   padding: 20px;
   margin-bottom: 30px;
   display: flex;
+
+  &:hover{
+    background: #434759;
+    border-color: #7aed91;
+    color: #282a36!important;
+  }
 `
 export const PostItemWrapper = styled.section`
   display: flex;

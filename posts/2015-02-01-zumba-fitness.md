@@ -3,10 +3,13 @@ date: 2015-02-01
 title: Zumba Fitness
 description: Vide electram sou preto inteiris, inteiris. Quem manda na minha terra sou euzis!
 category: Zinga
+image: "/src/images/terminal-cover.jpg"
 ---
 
 A First Level Header
 ====================
+
+![Desert](/assets/images/terminal-cover.jpg)
 
 A Second Level Header
 ---------------------
