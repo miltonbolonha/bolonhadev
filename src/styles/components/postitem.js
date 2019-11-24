@@ -3,6 +3,7 @@ import { Link } from 'gatsby'
 
 export const PostItemLink = styled(Link)`
   border: 2px dashed #eaf4f4;
+  border-color: #eaf4f4;
   padding: 20px;
   margin-bottom: 30px;
   display: flex;
