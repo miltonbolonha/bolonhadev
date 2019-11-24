@@ -30,9 +30,9 @@ const Layout = ({ children, crumbLabel }) => {
   return (   
     
     <S.LayoutWrapper>
-      <SettingStyles />
       <GenericStyles />
       <BaseStyles />
+      <SettingStyles />
       <S.LayoutMain>
       <TopEmail />
         <S.MainContainer>

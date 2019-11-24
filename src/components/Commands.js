@@ -14,19 +14,19 @@ const Commands = () => (
       <S.CommandsItem>
         <S.CommandLink to="/contact" activeClassName="active">/contact</S.CommandLink>
       </S.CommandsItem>
-      <S.CommandsItem>
+      {/* <S.CommandsItem>
         <S.CommandLink to="/portfolio" activeClassName="active">/portfolio</S.CommandLink>
       </S.CommandsItem>
       <S.CommandsItem>
         <S.CommandLink to="/clean" activeClassName="active">/clean</S.CommandLink>
-      </S.CommandsItem>
+      </S.CommandsItem> 
       <S.CommandsItem>
         <S.CommandLink to="/list" activeClassName="active">/list</S.CommandLink>
-      </S.CommandsItem>
+      </S.CommandsItem> */}
       <S.CommandsItem>
         <S.CommandLink to="/blog" activeClassName="active">/blog</S.CommandLink>
       </S.CommandsItem>
-      <S.CommandsItem>
+      {/* <S.CommandsItem>
         <S.CommandLink to="/last-post" activeClassName="active">/last</S.CommandLink>
       </S.CommandsItem>
       <S.CommandsItem>
@@ -34,7 +34,7 @@ const Commands = () => (
       </S.CommandsItem>
       <S.CommandsItem>
         <S.CommandLink to="/twitter" activeClassName="active">/twitter</S.CommandLink>
-      </S.CommandsItem>
+      </S.CommandsItem> */}
     </S.CommandsWrapper>
   </S.Aside>
 )
