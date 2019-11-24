@@ -1,10 +1,15 @@
 import React from "react"
 import { Link } from 'gatsby';
+import media from "styled-media-query"
 import styled from "styled-components"
 
 export const Aside = styled.aside`
   display: flex;
   align-items: center;
+
+  ${media.lessThan("medium")`
+    display:none;
+  `}
 `
 
 export const CommandsTitle = styled.h3`
