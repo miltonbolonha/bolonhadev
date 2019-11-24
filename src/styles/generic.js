@@ -1,11 +1,7 @@
 import { createGlobalStyle } from "styled-components"
 
 const GenericStyles = createGlobalStyle`
-  *{
-    @import url('https://fonts.googleapis.com/css?family=Fira+Code&display=swap');
-    font-family: 'Fira Code', monospace!important;
-    outline: none;
-  }
+  @import url('https://fonts.googleapis.com/css?family=Fira+Code&display=swap');
   html, body, div, span, applet, object, iframe,
   h1, h2, h3, h4, h5, h6, p, blockquote, pre,
   a, abbr, acronym, address, big, cite, code,
@@ -25,6 +21,11 @@ const GenericStyles = createGlobalStyle`
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
+  }
+  *,p,a,h1, h2, h3, h4, h5, h6,
+  input,button,ul,li{    
+    font-family: 'Fira Code', monospace!important;
+    outline: none;
   }
   input[type="search"]::-webkit-search-decoration,
   input[type="search"]::-webkit-search-cancel-button,

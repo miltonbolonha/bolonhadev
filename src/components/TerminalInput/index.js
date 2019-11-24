@@ -14,37 +14,31 @@ const algolia = {
 
 const TerminalInput = (props) => {
 
-  const algoliaClient = algoliasearch(algolia.appId, algolia.searchOnlyApiKey)
-
   const [searchState, setSearchState] = useState()
-  
   let [isSearching,setIsSearching] = useState(false)
+  const algoliaClient = algoliasearch(algolia.appId, algolia.searchOnlyApiKey)
   
   function handleSearchState(){
     setSearchState(searchState)
   }
 
   const searchClient = {
-    search(requests) {        
-      return algoliaClient.search(requests)
+    search(requests) {  
+      if(requests[0].params.query.length>=2){
+        return algoliaClient.search(requests)
+      }
     }
   }
 
-  function onSearchStateChange(searchState) {
-    if(searchState.query.length>1){
-      handleSearchState()
-    }    
-  }
-  
   const handleInputChange = (e) =>{
     // && e.target.value.charAt(0)!=='/'
-    if(e.target.value.length>1){
+    if(e.target.value.length>=2){
       setIsSearching(true)
+      handleSearchState()
     }else{
       setIsSearching(false)
     } 
     props.setIsSearching(e)
-    console.log(isSearching)
   }
 
   if(isSearching){
@@ -54,7 +48,7 @@ const TerminalInput = (props) => {
           searchClient={searchClient} 
           indexName={algolia.indexName}
           searchState={searchState}
-          onSearchStateChange={onSearchStateChange}
+          createURL={searchState => `?q=${searchState.query}`}
         >
           <SearchBox 
             autoFocus 
@@ -80,7 +74,6 @@ const TerminalInput = (props) => {
           searchClient={searchClient} 
           indexName={algolia.indexName}
           searchState={searchState}
-          onSearchStateChange={onSearchStateChange}
         >
           <SearchBox 
             autoFocus 

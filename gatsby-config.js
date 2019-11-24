@@ -10,6 +10,7 @@ module.exports = {
                   Aqui vou falar um pouco dos meus projetos e desafios.`,
     author: `@BolonhaDev`,
     email: `fala@bolonha.dev`,
+    siteUrl: `http://localhost:9001`
   },
   plugins: [
     `gatsby-plugin-styled-components`,
@@ -17,8 +18,15 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
+        name: `uploads`,
+        path: `${__dirname}/static/assets/images`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
         name: `images`,
-        path: `${__dirname}/src/images`,
+        path: `${__dirname}/static/assets/images`,
       },
     },
     {
@@ -42,7 +50,21 @@ module.exports = {
     {
       resolve: `gatsby-transformer-remark`,
       options: {
-        plugins: [],
+        plugins: [{
+          resolve: `gatsby-remark-relative-images`,
+          options: {
+            name: `uploads`
+          }
+        },
+        {
+          resolve: `gatsby-remark-images`,
+          options: {
+            maxWidth: 695,
+            linkImagesToOriginal: false
+          }
+        },
+        `gatsby-remark-lazy-load`,
+      ],
       },
     },
     `gatsby-transformer-sharp`,
@@ -57,11 +79,23 @@ module.exports = {
         background_color: `#040508`,
         theme_color: `#282a36`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `static/assets/images/terminal-icon.png`, // This path is relative to the root of the site.
       },
     },
+      `gatsby-plugin-sitemap`,
+      {
+        resolve: `gatsby-plugin-manifest`,
+        options: {
+          name: `BolonhaDev`,
+          short_name: `BolonhaDev`,
+          start_url: `/`,
+          background_color: `#040508`,
+          theme_color: `#282a36`,
+          display: `fullscreen`,
+        },
+      },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    `gatsby-plugin-offline`,
   ],
 }

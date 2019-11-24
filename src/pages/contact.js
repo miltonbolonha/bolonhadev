@@ -7,12 +7,9 @@ import SEO from "../components/seo"
 const ContactPage = () => (
   <Layout crumbLabel="contact">
     <SEO title="Contact" />
-    <p>Contactius dus Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan disputationi 
-      eu sit. Vide electram sadipscing et per. Praesent malesuada urna nisi, 
-      quis volutpat erat hendrerit non.
+    <p>Você pode me achar nas redes sociais e no git como <a href="http://githube.com/bolonhadev" rel="nofollow">@BolonhaDev</a>.
     </p>
-    <p>Manduma pindureta quium dia nois paga. Copo furadis é disculpa de 
-      bebadis, arcu quam euismod magna.
+    <p>O meu e-mail: fala@bolonha.dev
     </p>
   </Layout>
 )

@@ -11,7 +11,11 @@ const SinglePost = ({ data }) => {
 
   return (
     <Layout crumbLabel={post.fields.slug.slice(1,-1)}>
-      <SEO title={post.frontmatter.title} />
+      <SEO 
+        title={post.frontmatter.title} 
+        description={post.frontmatter.description} 
+        image={post.frontmatter.image} 
+      />
       <S.PostHeader>
         <S.PostTitle>{post.frontmatter.title}</S.PostTitle>
         <S.PostDate>{post.frontmatter.date}</S.PostDate>
@@ -30,6 +34,7 @@ export const query = graphql`
         title
         description
         date(formatString: "DD [de] MMMM [de] YYYY", locale: "pt-br")
+        image
       }
       html
       fields {
