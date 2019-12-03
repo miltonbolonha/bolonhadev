@@ -1,8 +1,12 @@
 ---
-date: 2019-12-05
 title: Coceira nas costas
-description: Bloguius dus Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan disputationi eu sit. Vide electram sadipscing et per. Sou preto inteiris, inteiris. Quem manda na minha terra sou euzis!
-category: Misc
+description: >-
+  Bloguius dus Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan
+  disputationi eu sit. Vide electram sadipscing et per. Sou preto inteiris,
+  inteiris. Quem manda na minha terra sou euzis!
+date: 2019-12-05T00:00:00.000Z
+thumbnail: /assets/images/terminal-cover.jpg
+category: vida-dev
 ---
 
 A First Level Header
