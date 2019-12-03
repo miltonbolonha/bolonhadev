@@ -1,8 +1,12 @@
 ---
-date: 2019-06-13
 title: Tigre branco
-description: Bloguius dus Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan disputationi eu sit. Vide electram sadipscing et per. Sou preto inteiris, inteiris. Quem manda na minha terra sou euzis!
-category: Misc
+description: >-
+  Bloguius dus Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan
+  disputationi eu sit. Vide electram sadipscing et per. Sou preto inteiris,
+  inteiris. Quem manda na minha terra sou euzis!
+date: 2019-06-13T00:00:00.000Z
+thumbnail: /assets/images/terminal-cover.jpg
+category: sites
 ---
 
 A First Level Header
