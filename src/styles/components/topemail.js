@@ -6,7 +6,7 @@ export const TopEmailWrapper  = styled.p`
   text-shadow: 1px 1px 0px #040508;
   color: #fff;
   font-size: 15px;
-  height: 23px;
+  min-height: 23px;
   display: flex;
   flex: 0 1 auto;
   flex-grow: 0;

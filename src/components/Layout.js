@@ -20,15 +20,12 @@ const Layout = ({ children, crumbLabel }) => {
   const handleIsSearching = e => {
     if(e.target.value.length>1){
       sethideChildren(true)
-      // console.log({hideChildren})
     }else{
       sethideChildren(false)
-      // console.log({hideChildren})
     }
   }
   
   return (   
-    
     <S.LayoutWrapper>
       <GenericStyles />
       <BaseStyles />

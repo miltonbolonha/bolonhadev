@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import media from "styled-media-query"
 
 export const LayoutWrapper = styled.section`
   display: flex;
@@ -27,6 +28,11 @@ export const LayoutMain = styled.div`
   justify-content: space-between;
   align-items: stretch;
   align-content: stretch;
+
+  ${media.lessThan("medium")`
+    margin: 0;
+    max-height: 100%;
+  `}
 
   &::-webkit-scrollbar {
     width: 5px;

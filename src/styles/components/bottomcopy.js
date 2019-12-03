@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import media from "styled-media-query"
 
 export const BottomCopyWrapper  = styled.p`
   background-color: #2c3133;
@@ -6,7 +7,7 @@ export const BottomCopyWrapper  = styled.p`
   text-shadow: 1px 1px 0px #040508;
   color: #fff;
   font-size: 15px;
-  height: 23px;
+  min-height: 23px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,6 +16,10 @@ export const BottomCopyWrapper  = styled.p`
   padding-top: 5px;
   padding-bottom: 5px;
   margin: 0;
+
+  ${media.lessThan("medium")`
+    font-size: 9px;
+  `}  
 `
 
 export const separator  = styled.span`

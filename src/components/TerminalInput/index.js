@@ -4,7 +4,7 @@ import { InstantSearch, SearchBox, Hits, Stats } from "react-instantsearch-dom"
 
 import PostLoop from "./PostLoop"
 
-import * as S from "../../styles/components/terminalinput"
+import * as S from "../../styles/components/TerminalInput/terminalInput"
 
 const algolia = {
   appId: process.env.GATSBY_ALGOLIA_APP_ID,
@@ -23,9 +23,9 @@ const TerminalInput = (props) => {
   }
 
   const searchClient = {
-    search(requests) {  
+    async search(requests) {  
       if(requests[0].params.query.length>=2){
-        return algoliaClient.search(requests)
+        return await algoliaClient.search(requests)
       }
     }
   }
@@ -35,6 +35,8 @@ const TerminalInput = (props) => {
     if(e.target.value.length>=2){
       setIsSearching(true)
       handleSearchState()
+    }else if(e.target.value.charAt(0)!=='/'){
+      return console.log('coisa não')
     }else{
       setIsSearching(false)
     } 
