@@ -1,0 +1,37 @@
+backend:
+  name: github
+  repo: bolonhadev/bolonhadev
+  branch: master # Branch to update (optional; defaults to master)
+  site_domain: https://bolonhadev.netlify.com/
+
+publish_mode: editorial_workflow
+media_folder: "static/assets/images"
+public_folder: "assets/images"
+
+collections:
+  - name: "posts" # Used in routes, e.g., /admin/collections/blog
+    label: "Posts" # Used in the UI
+    folder: "posts" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
+      - {label: "image", name: "thumbnail", widget: "image"}
+      - {
+          label: "Category", 
+          name: "category", 
+          widget: "select", 
+          options: [
+            { label: "Dev Básico", value: "dev-basico"},
+            { label: "Dev Avançado", value: "dev-avancado"},
+            { label: "HTML & CSS", value: "html-css"},
+            { label: "Vida de Dev", value: "vida-dev"},
+            { label: "Sites", value: "sites"},
+            { label: "Design", value: "design"},
+            { label: "Tutorial", value: "tutorial"},
+            { label: "Sites", value: "sites"},
+          ]
+        }
+      - {label: "Body", name: "body", widget: "markdown"}
