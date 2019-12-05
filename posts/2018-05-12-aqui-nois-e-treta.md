@@ -2,7 +2,7 @@
 title: Aqui nóis é treta
 description: 'Sou preto inteiris, inteiris. Quem manda na minha terra sou euzis!'
 date: 2018-05-12T00:00:00.000Z
-thumbnail: /assets/images/terminal-cover.jpg
+image: /assets/images/terminal-cover.jpg
 category: vida-dev
 ---
 
