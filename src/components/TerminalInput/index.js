@@ -35,8 +35,7 @@ const TerminalInput = (props) => {
     if(e.target.value.length>=2){
       setIsSearching(true)
       handleSearchState()
-    }else if(e.target.value.charAt(0)!=='/'){
-      return console.log('coisa não')
+    // }else if(e.target.value.charAt(0)!=='/'){
     }else{
       setIsSearching(false)
     } 
