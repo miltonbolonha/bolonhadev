@@ -52,7 +52,6 @@ const TerminalInput = (props) => {
           createURL={searchState => `?q=${searchState.query}`}
         >
           <SearchBox 
-            autoFocus 
             focusShortcuts={['/']}
             translations={{ placeholder: "Pesquisar..." }} 
             onChange={e => handleInputChange(e)}

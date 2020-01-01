@@ -24,14 +24,17 @@ collections:
           name: "category", 
           widget: "select", 
           options: [
+            { label: "devANEIO", value: "devaneio"},
             { label: "Dev Básico", value: "dev-basico"},
+            { label: "Dev Stuffs", value: "dev-stuffs"},
             { label: "Dev Avançado", value: "dev-avancado"},
-            { label: "HTML & CSS", value: "html-css"},
             { label: "Vida de Dev", value: "vida-dev"},
+            { label: "HTML & CSS", value: "html-css"},
             { label: "Sites", value: "sites"},
             { label: "Design", value: "design"},
             { label: "Tutorial", value: "tutorial"},
             { label: "Sites", value: "sites"},
+            { label: "Pensamentos", value: "pensamentos"},
           ]
         }
       - {label: "Body", name: "body", widget: "markdown"}
