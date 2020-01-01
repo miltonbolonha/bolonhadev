@@ -7,7 +7,8 @@ module.exports = {
     title: `BolonhaDev - Codando desde 1998`,
     description: `Oi, sou o Bolonha Dev. 
                   Desenvolvedor web e de apps mobile. 
-                  Aqui vou falar um pouco dos meus projetos e desafios.`,
+                  Aqui vou falar um pouco dos meus projetos e desafios.
+                  Você encontrará também alguns devANEIOS e pensamentos.`,
     author: `@BolonhaDev`,
     email: `fala@bolonha.dev`,
     siteUrl: `http://localhost:9001`
