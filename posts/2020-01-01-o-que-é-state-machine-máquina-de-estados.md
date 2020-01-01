@@ -11,11 +11,7 @@ O som dos carros quando estão no **modo rádio** fazem com que o botão next fu
 
 O botão next no caso é o dispositivo que possui diversas funções e essas funções são acessadas de acordo com o estado **modo** em que se encontra o som automotivo.
 
-> É como se fosse uma '
->
-> **programação orientada à estados'**
->
-> . Como se fosse, viu...
+> É como se fosse uma ' **programação orientada à estados'**. Como se fosse, viu...
 
 A partir do '_very first initial begin_' state do seu sistema, você desenvolverá todos os estados e fluxos entre eles, por exemplo, se você terá um botão de enviar, o estado inicial do botão será inativo, se você clicar no botão o fluxo do estado pode ser tanto enviar a informação, quanto dar erro.
 
