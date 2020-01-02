@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 const ContactPage = () => (
   <Layout crumbLabel="contact">
     <SEO title="Contact" />
-    <p>Você pode me achar nas redes sociais e no git como <a href="http://githube.com/bolonhadev" rel="nofollow">@BolonhaDev</a>.
+    <p>Você pode me achar nas redes sociais e no git como <a href="https://github.com/bolonhadev" rel="nofollow">@BolonhaDev</a>.
     </p>
     <p>O meu e-mail: fala@bolonha.dev
     </p>
