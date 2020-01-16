@@ -12,6 +12,7 @@
     "gatsby-plugin-algolia-search": "^0.5.6",
     "gatsby-plugin-breadcrumb": "^6.1.0",
     "gatsby-plugin-manifest": "^2.2.25",
+    "gatsby-plugin-netlify": "^2.1.31",
     "gatsby-plugin-netlify-cms": "^4.1.31",
     "gatsby-plugin-offline": "^3.0.17",
     "gatsby-plugin-react-helmet": "^3.1.13",
