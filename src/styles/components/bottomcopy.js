@@ -1,7 +1,13 @@
 import styled from "styled-components"
 import media from "styled-media-query"
+import Img from "gatsby-image"
 
-export const BottomCopyWrapper  = styled.p`
+export const BottomCopyImgs  = styled(Img)`
+  min-height: 16px;
+  min-width: 16px;
+`
+
+export const BottomCopyWrapper  = styled.div`
   background-color: #2c3133;
   border-top: 1px solid #181b1c;
   text-shadow: 1px 1px 0px #040508;
