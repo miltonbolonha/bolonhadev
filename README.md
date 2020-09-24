@@ -20,67 +20,67 @@ Pai, 33 anos, missionário mórmon retornado, produtor musical, designer, desenv
 
 ### Em Destaque
 
-_FASS:_ Teologia e Direito
+__FASS:__ Teologia e Direito
 
-_PORTA DOS FUNDOS:_ Produção de Conteúdo AudioVisual e Marketing de Branding
+__PORTA DOS FUNDOS:__ Produção de Conteúdo AudioVisual e Marketing de Branding
 
-_AP72 (THIAGO VENTURA, AFONSO PADILHA, NANDO VIANA E BRUNO ROMANO):_ Curso de Escrita Cômica e Produção Artística
+__AP72 (THIAGO VENTURA, AFONSO PADILHA, NANDO VIANA E BRUNO ROMANO):__ Curso de Escrita Cômica e Produção Artística
 
-_RENATO MODESTO:_ Roteiro Audivisual
+__RENATO MODESTO:__ Roteiro Audivisual
 
-_JORDY VANDEPUT:_ Filmagem DSLR Profissional
+__JORDY VANDEPUT:__ Filmagem DSLR Profissional
 
-_WILLIAN JUSTEN DE VASCONCELLOS:_ Desenvolvimento Reativo
+__WILLIAN JUSTEN DE VASCONCELLOS:__ Desenvolvimento Reativo
 
-_NEIL RACKHAM INSTITUTE:_ SPIN SELLING - Alcançando Excelência em Vendas
+__NEIL RACKHAM INSTITUTE:__ SPIN SELLING - Alcançando Excelência em Vendas
 
-_SENAI, CATHO, OI EMPRESARIAL, CLARO, SKY, NET:_ Curso de Vendas
+__SENAI, CATHO, OI EMPRESARIAL, CLARO, SKY, NET:__ Curso de Vendas
 
 ### Outros
 
-- _ANDREW MEAD:_ Gerenciamento de Rede Neural
-- _LEANDRO REZENDE:_ UX & Design Thinking
-- _MHM CONSULT:_ PNL do Básico ao Dia-a-dia
-- _EDINHO:_ Introdução ao Teatro de Improviso
-- _Catho:_ Leitura dinâmica
-- _Catho:_ Como Influenciar Pessoas
+- __ANDREW MEAD:__ Gerenciamento de Rede Neural
+- __LEANDRO REZENDE:__ UX & Design Thinking
+- __MHM CONSULT:__ PNL do Básico ao Dia-a-dia
+- __EDINHO:__ Introdução ao Teatro de Improviso
+- __Catho:__ Leitura dinâmica
+- __Catho:__ Como Influenciar Pessoas
 
-- _ABJICSUD:_ Treinamento Professor de Tempo Integral
-- _ABJICSUD:_ Preparação para o Ensino de Tempo Integral
-- _ABJICSUD:_ Ensino: Não Há Maior Chamado
-- _ABJICSUD:_ Técnicas de Ensino - ABJICSUD
-- _ABJICSUD:_ Princípios de Liderança
-- _ABJICSUD:_ Curso de Autossuficiência Profissional
-- _ABJICSUD:_ Metas e Planejamento
+- __ABJICSUD:__ Treinamento Professor de Tempo Integral
+- __ABJICSUD:__ Preparação para o Ensino de Tempo Integral
+- __ABJICSUD:__ Ensino: Não Há Maior Chamado
+- __ABJICSUD:__ Técnicas de Ensino - ABJICSUD
+- __ABJICSUD:__ Princípios de Liderança
+- __ABJICSUD:__ Curso de Autossuficiência Profissional
+- __ABJICSUD:__ Metas e Planejamento
 
-- _Instituto de Teologia:_ Velho Testamento
-- _Instituto de Teologia:_ Novo Testamento
-- _Instituto de Teologia:_ Livro de Mórmon
-- _Instituto de Teologia:_ Doutrina & Convênios
-- _Instituto de Teologia:_ Pérola de Grande Valor
-- _Instituto de Teologia:_ O Evangelho e a Vida Produtiva
+- __Instituto de Teologia:__ Velho Testamento
+- __Instituto de Teologia:__ Novo Testamento
+- __Instituto de Teologia:__ Livro de Mórmon
+- __Instituto de Teologia:__ Doutrina & Convênios
+- __Instituto de Teologia:__ Pérola de Grande Valor
+- __Instituto de Teologia:__ O Evangelho e a Vida Produtiva
 
-- _Teologia FASS:_ Teologia das religiões
-- _Teologia FASS:_ História das religiões: religiões africanas e orientais
-- _Teologia FASS:_ História da filosofia medieval
-- _Teologia FASS:_ História das religiões: cristianismo
-- _Teologia FASS:_ História da filosofia moderna
-- _Teologia FASS:_ Estudos bíblicos: sinóticos e escritos joaninos
-- _Teologia FASS:_ Estudos bíblicos: profetas
+- __Teologia FASS:__ Teologia das religiões
+- __Teologia FASS:__ História das religiões: religiões africanas e orientais
+- __Teologia FASS:__ História da filosofia medieval
+- __Teologia FASS:__ História das religiões: cristianismo
+- __Teologia FASS:__ História da filosofia moderna
+- __Teologia FASS:__ Estudos bíblicos: sinóticos e escritos joaninos
+- __Teologia FASS:__ Estudos bíblicos: profetas
 
-- _Direito FASS:_ História e introdução ao estudo do direito
-- _Direito FASS:_ Metodologia de pesquisa (ead)
-- _Direito FASS:_ Teoria geral do processo
-- _Direito FASS:_ Direito Civil (Teoria Geral)
-- _Direito FASS:_ Direito Civil - obrigações
-- _Direito FASS:_ Direito Civil - fato jurídico
-- _Direito FASS:_ Direito Constitucional e direitos fundamentais
-- _Direito FASS:_ Direito Constitucional e direitos políticos
-- _Direito FASS:_ Direito Processual civil - processo de conhecimento
-- _Direito FASS:_ Direito Penal - teoria do delito
-- _Direito FASS:_ Direito Penal - teoria da pena
-- _Direito FASS:_ Direito do trabalho - direito individual
-- _Direito FASS:_ Medicina legal
+- __Direito FASS:__ História e introdução ao estudo do direito
+- __Direito FASS:__ Metodologia de pesquisa (ead)
+- __Direito FASS:__ Teoria geral do processo
+- __Direito FASS:__ Direito Civil (Teoria Geral)
+- __Direito FASS:__ Direito Civil - obrigações
+- __Direito FASS:__ Direito Civil - fato jurídico
+- __Direito FASS:__ Direito Constitucional e direitos fundamentais
+- __Direito FASS:__ Direito Constitucional e direitos políticos
+- __Direito FASS:__ Direito Processual civil - processo de conhecimento
+- __Direito FASS:__ Direito Penal - teoria do delito
+- __Direito FASS:__ Direito Penal - teoria da pena
+- __Direito FASS:__ Direito do trabalho - direito individual
+- __Direito FASS:__ Medicina legal
 
-- _Erick Wendel:_ Fundamentos de Javascript
-- _Rocketseat:_ Bootcamp ReactJS.
+- __Erick Wendel:__ Fundamentos de Javascript
+- __Rocketseat:__ Bootcamp ReactJS.
