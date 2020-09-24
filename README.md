@@ -5,13 +5,13 @@ Pai, 33 anos, missionário mórmon retornado, diretor de arte, produtor musical,
 
 # Referências Profissionais e Portifólio
 
-[Jackson Cast Stone - Site em WordPress](https://www.jacksoncaststone.com/)
-
 1º ano - [Tappan Collective, Los Angeles CA](https://www.tappancollective.com/)
 
 3 anos - [Perfil Upwork](https://www.upwork.com/o/profiles/users/~01791c48f168400a9f/)
 
 3 anos - [Green Hat Web Solutions, Denver CO](https://www.greenhatwebs.com/)
+
+[Jackson Cast Stone - Site em WordPress](https://www.jacksoncaststone.com/)
 
 [Portifólio](http://miltonbolonha.com.br/portifolio.pdf)
 
