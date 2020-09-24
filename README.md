@@ -5,38 +5,26 @@ Pai, 33 anos, missionário mórmon retornado, diretor de arte, produtor musical,
 
 # Referências Profissionais e Portifólio
 
-1º ano - [Tappan Collective, Los Angeles CA](https://www.tappancollective.com/)
-
-3 anos - [Perfil Upwork](https://www.upwork.com/o/profiles/users/~01791c48f168400a9f/)
-
-3 anos - [Green Hat Web Solutions, Denver CO](https://www.greenhatwebs.com/)
-
-[Jackson Cast Stone - Site em WordPress](https://www.jacksoncaststone.com/)
-
-[Portifólio](http://miltonbolonha.com.br/portifolio.pdf)
-
-[LinkedIn](https://www.linkedin.com/in/bolonhadev/)
+- [Tappan Collective, Los Angeles CA](https://www.tappancollective.com/) - 1 job
+- [Perfil Upwork](https://www.upwork.com/o/profiles/users/~01791c48f168400a9f/) - 2 anos
+- [Agência Green Hat, Denver CO](https://www.greenhatwebs.com/) - 2 anos
+- [Jackson Cast Stone - Site em WordPress](https://www.jacksoncaststone.com/)
+- [Portifólio](http://miltonbolonha.com.br/portifolio.pdf)
+- [LinkedIn](https://www.linkedin.com/in/bolonhadev/)
 
 
 # Cursos e Certificações
 
 ## Em Destaque
 
-__FASS:__ Teologia e Direito
-
-__PORTA DOS FUNDOS:__ Produção de Conteúdo AudioVisual e Marketing de Branding
-
-__AP72 (THIAGO VENTURA, AFONSO PADILHA, NANDO VIANA E BRUNO ROMANO):__ Curso de Escrita Cômica e Produção Artística
-
-__RENATO MODESTO:__ Roteiro Audivisual
-
-__JORDY VANDEPUT:__ Filmagem DSLR Profissional
-
-__WILLIAN JUSTEN DE VASCONCELLOS:__ Desenvolvimento Reativo
-
-__NEIL RACKHAM INSTITUTE:__ SPIN SELLING - Alcançando Excelência em Vendas
-
-__SENAI, CATHO, OI EMPRESARIAL, CLARO, SKY, NET:__ Curso de Vendas
+- __FASS:__ Teologia e Direito
+- __PORTA DOS FUNDOS:__ Produção de Conteúdo AudioVisual e Marketing de Branding
+- __AP72 (THIAGO VENTURA, AFONSO PADILHA, NANDO VIANA E BRUNO ROMANO):__ Curso de Escrita Cômica e Produção Artística
+- __RENATO MODESTO:__ Roteiro Audivisual
+- __JORDY VANDEPUT:__ Filmagem DSLR Profissional
+- __WILLIAN JUSTEN DE VASCONCELLOS:__ Desenvolvimento Reativo
+- __NEIL RACKHAM INSTITUTE:__ SPIN SELLING - Alcançando Excelência em Vendas
+- __SENAI, CATHO, OI EMPRESARIAL, CLARO, SKY, NET:__ Curso de Vendas
 
 
 ## Outros
