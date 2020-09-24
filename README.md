@@ -1,6 +1,6 @@
 # Milton Bolonha Neto
 
-Pai, 33 anos, missionário mórmon retornado, produtor musical, designer, desenvolvedor web e de apps, filósofo, escritor, roteirista, humorista, motion designer, artista plástico, publicitário e engenheiro de software.
+Pai, 33 anos, missionário mórmon retornado, diretor de arte, produtor musical, designer, desenvolvedor web e de apps, filósofo, escritor, roteirista, humorista, motion designer, artista plástico, publicitário e engenheiro de software.
 
 
 # Referências Profissionais e Portifólio
