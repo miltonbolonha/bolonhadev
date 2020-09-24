@@ -22,7 +22,7 @@ Pai, 33 anos, missionário mórmon retornado, diretor de arte, produtor musical,
 - __AP72 (THIAGO VENTURA, AFONSO PADILHA, NANDO VIANA E BRUNO ROMANO):__ Curso de Escrita Cômica e Produção Artística
 - __RENATO MODESTO:__ Roteiro Audivisual
 - __JORDY VANDEPUT:__ Filmagem DSLR Profissional
-- __WILLIAN JUSTEN DE VASCONCELLOS:__ Desenvolvimento Reativo
+- __WILLIAN JUSTEN DE VASCONCELLOS:__ Gatsby e Desenvolvimento Reativo
 - __NEIL RACKHAM INSTITUTE:__ SPIN SELLING - Alcançando Excelência em Vendas
 - __SENAI, CATHO, OI EMPRESARIAL, CLARO, SKY, NET:__ Curso de Vendas
 
