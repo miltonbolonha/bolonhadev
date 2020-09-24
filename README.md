@@ -2,7 +2,8 @@
 
 Pai, 33 anos, missionário mórmon retornado, produtor musical, designer, desenvolvedor web e de apps, filósofo, escritor, roteirista, humorista, motion designer, artista plástico, publicitário e engenheiro de software.
 
-## Referências Profissionais e Portifólio
+
+# Referências Profissionais e Portifólio
 
 [Jackson Cast Stone - Site em WordPress](https://www.jacksoncaststone.com/)
 
@@ -16,9 +17,10 @@ Pai, 33 anos, missionário mórmon retornado, produtor musical, designer, desenv
 
 [LinkedIn](https://www.linkedin.com/in/bolonhadev/)
 
-## Cursos e Certificações
 
-### Em Destaque
+# Cursos e Certificações
+
+## Em Destaque
 
 __FASS:__ Teologia e Direito
 
@@ -36,7 +38,8 @@ __NEIL RACKHAM INSTITUTE:__ SPIN SELLING - Alcançando Excelência em Vendas
 
 __SENAI, CATHO, OI EMPRESARIAL, CLARO, SKY, NET:__ Curso de Vendas
 
-### Outros
+
+## Outros
 
 - __ANDREW MEAD:__ Gerenciamento de Rede Neural
 - __LEANDRO REZENDE:__ UX & Design Thinking
