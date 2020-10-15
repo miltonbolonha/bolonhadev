@@ -1,6 +1,25 @@
 # Milton Bolonha Neto
 
+Oi, sou o [Milton](http://miltonbolonha.com.br) 👋
+
 Pai, 33 anos, missionário mórmon retornado, diretor de arte, produtor musical, designer, desenvolvedor web e de apps, filósofo, escritor, roteirista, humorista, motion designer, artista plástico, publicitário e engenheiro de software.
+
+### Ouça meu som no Spotify 🎧:
+
+[<img src="https://now-playing-codestackr.vercel.app/api/spotify-playing" alt="codeSTACKr Spotify Playing" width="350" />](https://open.spotify.com/artist/5Y58GFhW1UudqtCnf98IzA)
+
+
+
+### Connect with me:
+
+[<img align="left" alt="codeSTACKr.com" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />](http://miltonbolonha.com.br/)
+[<img align="left" alt="codeSTACKr | YouTube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" />](https://www.youtube.com/channel/UCxl1Og51qXSGhUoIFueDvWw)
+[<img align="left" alt="codeSTACKr | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />](https://twitter.com/bolonhadev)
+[<img align="left" alt="codeSTACKr | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />](https://www.linkedin.com/in/bolonhadev/)
+[<img align="left" alt="codeSTACKr | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />](https://www.instagram.com/kikobolonha/)
+
+<br />
+
 
 
 # Referências Profissionais e Portifólio
