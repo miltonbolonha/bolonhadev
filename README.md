@@ -1,6 +1,6 @@
 # Milton Bolonha Neto
 
-Oi, sou o [Milton](http://miltonbolonha.com.br) 👋
+Oi, sou o [Milton](https://bolonha.dev) 👋
 
 Pai, 33 anos, missionário mórmon retornado, diretor de arte, produtor musical, designer, desenvolvedor web e de apps, filósofo, escritor, roteirista, humorista, motion designer, artista plástico, publicitário e engenheiro de software.
 
@@ -12,7 +12,7 @@ Pai, 33 anos, missionário mórmon retornado, diretor de arte, produtor musical,
 
 ### Connect with me:
 
-[<img align="left" alt="codeSTACKr.com" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />](http://miltonbolonha.com.br/)
+[<img align="left" alt="codeSTACKr.com" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />](https://bolonha.dev/)
 [<img align="left" alt="codeSTACKr | YouTube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" />](https://www.youtube.com/channel/UCxl1Og51qXSGhUoIFueDvWw)
 [<img align="left" alt="codeSTACKr | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />](https://twitter.com/bolonhadev)
 [<img align="left" alt="codeSTACKr | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />](https://www.linkedin.com/in/bolonhadev/)
@@ -28,7 +28,7 @@ Pai, 33 anos, missionário mórmon retornado, diretor de arte, produtor musical,
 - [Perfil Upwork](https://www.upwork.com/o/profiles/users/~01791c48f168400a9f/) - 2 anos
 - [Agência Green Hat, Denver CO](https://www.greenhatwebs.com/) - 2 anos
 - [Jackson Cast Stone - Site em WordPress](https://www.jacksoncaststone.com/)
-- [Portifólio](http://miltonbolonha.com.br/portifolio.pdf)
+- [Portifólio](https://bolonha.dev/portifolio.pdf)
 - [LinkedIn](https://www.linkedin.com/in/bolonhadev/)
 
 
