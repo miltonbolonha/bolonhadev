@@ -9,7 +9,7 @@ const ContactPage = () => (
     <SEO title="Contact" />
     <p>Você pode me achar nas redes sociais e no git como <a href="https://github.com/bolonhadev" rel="nofollow">@BolonhaDev</a>.
     </p>
-    <p>O meu e-mail: fala@bolonha.dev
+    <p>O meu e-mail: miltonbolonha@gmail.com
     </p>
   </Layout>
 )
