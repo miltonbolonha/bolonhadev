@@ -1,6 +1,6 @@
-# Milton Bolonha Neto
+# Milton "Kiko" Bolonha
 
-Oi, sou o [Milton](https://bolonha.dev) 👋
+Oi, sou o [Milton](https://www.instagram.com/kikobolonha) 👋
 
 Pai, 33 anos, missionário mórmon retornado, diretor de arte, produtor musical, designer, desenvolvedor web e de apps, filósofo, escritor, roteirista, humorista, motion designer, artista plástico, publicitário e engenheiro de software.
 
