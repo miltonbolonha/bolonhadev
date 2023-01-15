@@ -80,6 +80,7 @@ module.exports = {
           start_url: `/`,
           background_color: `#040508`,
           theme_color: `#282a36`,
+          icon: `src/images/gatsby-icon.png`,
           display: `fullscreen`
         },
       },
