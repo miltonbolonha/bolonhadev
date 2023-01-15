@@ -72,18 +72,6 @@ module.exports = {
     `gatsby-remark-prismjs`,
     `gatsby-plugin-sharp`,
       `gatsby-plugin-sitemap`,
-      {
-        resolve: `gatsby-plugin-manifest`,
-        options: {
-          name: `BolonhaDev`,
-          short_name: `BolonhaDev`,
-          start_url: `/`,
-          background_color: `#040508`,
-          theme_color: `#282a36`,
-          icon: `src/images/gatsby-icon.png`,
-          display: `fullscreen`
-        },
-      },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     `gatsby-plugin-offline`,
