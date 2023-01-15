@@ -71,18 +71,6 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-remark-prismjs`,
     `gatsby-plugin-sharp`,
-    {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
-        start_url: `/`,
-        background_color: `#040508`,
-        theme_color: `#282a36`,
-        display: `minimal-ui`,
-        icon: `static/assets/images/terminal-icon.png`, // This path is relative to the root of the site.
-      },
-    },
       `gatsby-plugin-sitemap`,
       {
         resolve: `gatsby-plugin-manifest`,
@@ -92,7 +80,7 @@ module.exports = {
           start_url: `/`,
           background_color: `#040508`,
           theme_color: `#282a36`,
-          display: `fullscreen`,
+          display: `fullscreen`
         },
       },
     // this (optional) plugin enables Progressive Web App + Offline functionality
