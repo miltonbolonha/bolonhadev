@@ -19,7 +19,6 @@ query {
 }
 `
 )
-  console.log(reactIcon)
   return (
     <S.BottomCopyWrapper>
       © Todos os direitos reservados a {author} <S.separator>|</S.separator>
