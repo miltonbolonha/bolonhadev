@@ -1,96 +1,24 @@
-# Milton "Kiko" Bolonha
-
-Oi, sou o [Milton](https://www.instagram.com/kikobolonha) 👋
-
-Pai, 33 anos, missionário mórmon retornado, diretor de arte, produtor musical, designer, desenvolvedor web e de apps, filósofo, escritor, roteirista, humorista, motion designer, artista plástico, publicitário e engenheiro de software.
-
-### Ouça meu som no Spotify 🎧:
-
-[<img src="https://now-playing-codestackr.vercel.app/api/spotify-playing" alt="codeSTACKr Spotify Playing" width="350" />](https://open.spotify.com/artist/5Y58GFhW1UudqtCnf98IzA)
+# 💫 About Me:
+My own GatsbyJS v5 boilerplate<br>WordPress fullstack development
 
 
+## 🌐 Socials:
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/miltonbolonha_) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/miltonbolonha) [![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?logo=Twitter&logoColor=white)](https://twitter.com/miltonbolonha) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/@@MiltonBolonha) 
 
-### Connect with me:
+# 💻 Tech Stack:
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7) ![Google Cloud](https://img.shields.io/badge/Google%20Cloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![Webpack](https://img.shields.io/badge/webpack-%238DD6F9.svg?style=for-the-badge&logo=webpack&logoColor=black) ![Yarn](https://img.shields.io/badge/yarn-%232C8EBB.svg?style=for-the-badge&logo=yarn&logoColor=white) ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white) ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white) ![Gatsby](https://img.shields.io/badge/Gatsby-%23663399.svg?style=for-the-badge&logo=gatsby&logoColor=white) ![Gulp](https://img.shields.io/badge/GULP-%23CF4647.svg?style=for-the-badge&logo=gulp&logoColor=white) ![Insomnia](https://img.shields.io/badge/Insomnia-black?style=for-the-badge&logo=insomnia&logoColor=5849BE) ![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white) ![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white) ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) 	![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Adobe XD](https://img.shields.io/badge/Adobe%20XD-470137?style=for-the-badge&logo=Adobe%20XD&logoColor=#FF61F6) ![Adobe Premiere Pro](https://img.shields.io/badge/Adobe%20Premiere%20Pro-9999FF.svg?style=for-the-badge&logo=Adobe%20Premiere%20Pro&logoColor=white) ![Adobe Photoshop](https://img.shields.io/badge/adobephotoshop-%2331A8FF.svg?style=for-the-badge&logo=adobephotoshop&logoColor=white) ![Adobe Illustrator](https://img.shields.io/badge/adobeillustrator-%23FF9A00.svg?style=for-the-badge&logo=adobeillustrator&logoColor=white) ![Adobe InDesign](https://img.shields.io/badge/Adobe%20InDesign-49021F?style=for-the-badge&logo=adobeindesign&logoColor=white) ![Adobe After Effects](https://img.shields.io/badge/Adobe%20After%20Effects-9999FF.svg?style=for-the-badge&logo=Adobe%20After%20Effects&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![LINUX](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) ![Babel](https://img.shields.io/badge/Babel-F9DC3e?style=for-the-badge&logo=babel&logoColor=black) ![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Trello](https://img.shields.io/badge/Trello-%23026AA7.svg?style=for-the-badge&logo=Trello&logoColor=white)
+# 📊 GitHub Stats:
+![](https://github-readme-stats.vercel.app/api?username=miltonbolonha&theme=dark&hide_border=false&include_all_commits=false&count_private=true)<br/>
+![](https://github-readme-streak-stats.herokuapp.com/?user=miltonbolonha&theme=dark&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=miltonbolonha&theme=dark&hide_border=false&include_all_commits=false&count_private=true&layout=compact)
 
-[<img align="left" alt="codeSTACKr.com" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />](https://bolonha.dev/)
-[<img align="left" alt="codeSTACKr | YouTube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" />](https://www.youtube.com/channel/UCxl1Og51qXSGhUoIFueDvWw)
-[<img align="left" alt="codeSTACKr | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />](https://twitter.com/bolonhadev)
-[<img align="left" alt="codeSTACKr | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />](https://www.linkedin.com/in/bolonhadev/)
-[<img align="left" alt="codeSTACKr | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />](https://www.instagram.com/kikobolonha/)
+## 🏆 GitHub Trophies
+![](https://github-profile-trophy.vercel.app/?username=miltonbolonha&theme=radical&no-frame=false&no-bg=true&margin-w=4)
 
-<br />
+## 🐦 Latest Tweet
+[![](https://gtce.itsvg.in/api?username=miltonbolonha)](https://github.com/VishwaGauravIn/github-twitter-card-embed)
 
+---
+[![](https://visitcount.itsvg.in/api?id=miltonbolonha&icon=0&color=5)](https://visitcount.itsvg.in)
 
-
-# Referências Profissionais e Portifólio
-
-- [Tappan Collective, Los Angeles CA](https://www.tappancollective.com/) - 1 job
-- [Perfil Upwork](https://www.upwork.com/o/profiles/users/~01791c48f168400a9f/) - 2 anos
-- [Agência Green Hat, Denver CO](https://www.greenhatwebs.com/) - 2 anos
-- [Jackson Cast Stone - Site em WordPress](https://www.jacksoncaststone.com/)
-- [Portifólio](https://bolonha.dev/portifolio.pdf)
-- [LinkedIn](https://www.linkedin.com/in/bolonhadev/)
-
-
-# Cursos e Certificações
-
-## Em Destaque
-
-- __FASS:__ Teologia e Direito
-- __PORTA DOS FUNDOS:__ Produção de Conteúdo AudioVisual e Marketing de Branding
-- __AP72 (THIAGO VENTURA, AFONSO PADILHA, NANDO VIANA E BRUNO ROMANO):__ Curso de Escrita Cômica e Produção Artística
-- __RENATO MODESTO:__ Roteiro Audivisual
-- __JORDY VANDEPUT:__ Filmagem DSLR Profissional
-- __WILLIAN JUSTEN DE VASCONCELLOS:__ Gatsby e Desenvolvimento Reativo
-- __NEIL RACKHAM INSTITUTE:__ SPIN SELLING - Alcançando Excelência em Vendas
-- __SENAI, CATHO, OI EMPRESARIAL, CLARO, SKY, NET:__ Curso de Vendas
-
-
-## Outros
-
-- __ANDREW MEAD:__ Gerenciamento de Rede Neural
-- __LEANDRO REZENDE:__ UX & Design Thinking
-- __MHM CONSULT:__ PNL do Básico ao Dia-a-dia
-- __EDINHO:__ Introdução ao Teatro de Improviso
-- __Catho:__ Leitura dinâmica
-- __Catho:__ Como Influenciar Pessoas
-
-- __ABJICSUD:__ Treinamento Professor de Tempo Integral
-- __ABJICSUD:__ Preparação para o Ensino de Tempo Integral
-- __ABJICSUD:__ Ensino: Não Há Maior Chamado
-- __ABJICSUD:__ Técnicas de Ensino - ABJICSUD
-- __ABJICSUD:__ Princípios de Liderança
-- __ABJICSUD:__ Curso de Autossuficiência Profissional
-- __ABJICSUD:__ Metas e Planejamento
-
-- __Instituto de Teologia:__ Velho Testamento
-- __Instituto de Teologia:__ Novo Testamento
-- __Instituto de Teologia:__ Livro de Mórmon
-- __Instituto de Teologia:__ Doutrina & Convênios
-- __Instituto de Teologia:__ Pérola de Grande Valor
-- __Instituto de Teologia:__ O Evangelho e a Vida Produtiva
-
-- __Teologia FASS:__ Teologia das religiões
-- __Teologia FASS:__ História das religiões: religiões africanas e orientais
-- __Teologia FASS:__ História da filosofia medieval
-- __Teologia FASS:__ História das religiões: cristianismo
-- __Teologia FASS:__ História da filosofia moderna
-- __Teologia FASS:__ Estudos bíblicos: sinóticos e escritos joaninos
-- __Teologia FASS:__ Estudos bíblicos: profetas
-
-- __Direito FASS:__ História e introdução ao estudo do direito
-- __Direito FASS:__ Metodologia de pesquisa (ead)
-- __Direito FASS:__ Teoria geral do processo
-- __Direito FASS:__ Direito Civil (Teoria Geral)
-- __Direito FASS:__ Direito Civil - obrigações
-- __Direito FASS:__ Direito Civil - fato jurídico
-- __Direito FASS:__ Direito Constitucional e direitos fundamentais
-- __Direito FASS:__ Direito Constitucional e direitos políticos
-- __Direito FASS:__ Direito Processual civil - processo de conhecimento
-- __Direito FASS:__ Direito Penal - teoria do delito
-- __Direito FASS:__ Direito Penal - teoria da pena
-- __Direito FASS:__ Direito do trabalho - direito individual
-- __Direito FASS:__ Medicina legal
-
-- __Erick Wendel:__ Fundamentos de Javascript
-- __Rocketseat:__ Bootcamp ReactJS.
+<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
